@@ -8,8 +8,15 @@
     "build": "tsc",
     "eslint": "eslint --max-warnings 0 $(git ls-files '*.ts' '*.tsx')",
     "test": "xxscreeps test",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "prepare": "tsc"
   },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "types": "dist/types",
   "bin": {
     "xxscreeps": "./bin/xxscreeps.js"
   },
