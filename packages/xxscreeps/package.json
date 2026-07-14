@@ -1,6 +1,6 @@
 {
-  "name": "xxscreeps",
-  "version": "0.0.9",
+  "name": "@screepts/xxscreeps",
+  "version": "0.0.10-f7c71d02.0",
   "type": "module",
   "license": "ISC",
   "scripts": {
