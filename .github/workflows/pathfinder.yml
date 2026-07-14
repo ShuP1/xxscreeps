@@ -1,16 +1,6 @@
 name: '@xxscreeps/pathfinder'
 
-on:
-  push:
-    paths:
-      - .github/workflows/pathfinder.yml
-      - packages/pathfinder/**
-      - pnpm-lock.yaml
-  pull_request:
-    paths:
-      - .github/workflows/pathfinder.yml
-      - packages/pathfinder/**
-      - pnpm-lock.yaml
+on: {}
 
 jobs:
   build:
